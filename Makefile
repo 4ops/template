@@ -13,11 +13,7 @@ clean:
 
 init:
 	@type git > /dev/null || exit 1
-	@rm -rf .git download.sh
+	@rm -rf .git download.sh Makefile
 	@git init
-	@git add .gitignore
-	@echo "Makefile" > .gitignore && echo ".gitignore" >> .gitignore
 	@git add .
 	@git commit -m "Initial commit"
-	@git checkout -- .
-	@rm -f Makefile

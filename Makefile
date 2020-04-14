@@ -19,7 +19,7 @@ init:
 	@git status
 	@git add .gitignore
 	@git status
-	@echo -e "\nMakefile\n.gitignore" > .gitignore
+	@echo "Makefile" .gitignore && echo ".gitignore" >> .gitignore
 	@git status
 	@git add .
 	@git commit -m "Initial commit"

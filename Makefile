@@ -16,7 +16,7 @@ init:
 	@rm -rf .git download.sh
 	@git init
 	@git add .gitignore
-	@echo "Makefile" .gitignore && echo ".gitignore" >> .gitignore
+	@echo "Makefile" > .gitignore && echo ".gitignore" >> .gitignore
 	@git add .
 	@git commit -m "Initial commit"
 	@git checkout -- .

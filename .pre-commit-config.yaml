@@ -1,27 +1,20 @@
 repos:
   - repo: git://github.com/pre-commit/pre-commit-hooks
-    rev: v2.5.0
+    rev: v3.2.0
     hooks:
       - id: check-added-large-files
       - id: check-json
       - id: check-merge-conflict
       - id: check-symlinks
-      - id: check-yaml
-      - id: detect-aws-credentials
       - id: detect-private-key
       - id: forbid-new-submodules
       - id: mixed-line-ending
       - id: trailing-whitespace
   - repo: git://github.com/gruntwork-io/pre-commit
-    rev: v0.1.5
+    rev: v0.1.10
     hooks:
       - id: helmlint
-      - id: markdown-link-check
-      - id: shellcheck
-      - id: terraform-fmt
-      - id: terraform-validate
-      - id: tflint
   - repo: git://github.com/norwoodj/helm-docs
-    rev: v0.12.0
+    rev: v0.15.0
     hooks:
       - id: helm-docs

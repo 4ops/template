@@ -18,6 +18,6 @@ trim_trailing_whitespace = false
 indent_size = 6
 indent_style = tab
 
-[*.{go,sh}]
+[*.{bashrc,bash_aliases,go,gitconfig,json,profile,sh,ts}]
 indent_size = 4
 indent_style = tab

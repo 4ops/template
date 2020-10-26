@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+*                 text=auto
+
+LICENSE           text
+
+.gitattributes    text -diff
+.gitignore        text -diff
+.editorconfig     text -diff

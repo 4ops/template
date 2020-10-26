@@ -14,6 +14,7 @@ clean:
 init:
 	@type git > /dev/null || exit 1
 	@rm -rf .git download.sh Makefile
+	@curl -s https://4ops.mit-license.org/license.txt > LICENSE
 	@git init
 	@git add .
 	@git commit -m "Initial commit"

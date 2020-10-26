@@ -1,51 +1,25 @@
-# Local .terraform directories
-**/.terraform/*
-
-# .tfstate files
-*.tfstate
-*.tfstate.*
-
-# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
-# .tfvars files are managed as part of configuration and so should be included in
-# version control.
-*.tfvars
-!*.auto.tfvars
-!test*/*.tfvars
-
-# Ignore override files as they are usually used to override resources locally and so
-# are not checked in
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
-*tfplan*
-
 # Private data
 **/secrets.*
 /private/
-.local/
+/.local/
 
 # Backups
 *.backup
 *.backup.*
 backup/
 
-# Downloadable components
-node_modules/
-.m2/
-.mvn/
-
 # Artifacts
 *.zip
 *.tgz
 *.xz
+*.rar
 *.tar
 *.gzip
 *.log
 *.dump
-out/
+*.tmp
+/out/
+/dist/
 
 # IDE
 .vscode/

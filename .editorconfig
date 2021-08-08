@@ -7,7 +7,7 @@ end_of_line = lf
 indent_size = 2
 indent_style = space
 insert_final_newline = true
-max_line_length = 150
+max_line_length = 160
 trim_trailing_whitespace = true
 
 [*.md]
@@ -18,6 +18,9 @@ trim_trailing_whitespace = false
 indent_size = 6
 indent_style = tab
 
-[*.{bashrc,bash_aliases,go,gitconfig,json,profile,sh,ts}]
+[*.{bashrc,bash_aliases,go,gitconfig,profile,sh}]
 indent_size = 4
 indent_style = tab
+
+[*.{js,json,ts}]
+indent_size = 4

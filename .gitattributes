@@ -1,8 +1,4 @@
-# Auto detect text files and perform LF normalization
-*                 text=auto
-
-LICENSE           text
-
-.gitattributes    text -diff
-.gitignore        text -diff
-.editorconfig     text -diff
+# Managing line ending conversions
+# See http://git-scm.com/docs/gitattributes#_end-of-line_conversion
+* text=auto
+* eol=lf

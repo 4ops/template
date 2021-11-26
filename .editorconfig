@@ -7,20 +7,18 @@ end_of_line = lf
 indent_size = 2
 indent_style = space
 insert_final_newline = true
-max_line_length = 160
 trim_trailing_whitespace = true
 
 [*.md]
-max_line_length = 0
 trim_trailing_whitespace = false
 
-[Makefile]
-indent_size = 6
-indent_style = tab
-
-[*.{bashrc,bash_aliases,go,gitconfig,profile,sh}]
+[{*.sh,Makefile,Makefile.*}]
 indent_size = 4
 indent_style = tab
 
-[*.{js,json,ts}]
+[{*.go,go.mod,go.sum}]
+indent_size = 6
+indent_style = tab
+
+[{*.js,*.json,*.ts}]
 indent_size = 4
